@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    min-height: 95px;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    position: sticky;
+    top: 0px;
+}
+.logo{
+    margin-left: 70px;
+    padding-top: 18px;
+}
+#logo{
+    max-width: 118px;
+    height: 55px;
+}
+.nav-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 520px;
+}
+.h1{
+    margin: 10px;
+    font-size: 18px;
+}
+.h2{
+    margin: 10px;
+    font-size: 18px;
+    color: burlywood;
+}
+.search{
+    margin: 10px;
+}
+.award{
+    min-height: 350px;
+    width: 100%;
+    background-color: #0473AA;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.award-cover1{
+    max-width: 292px;
+    height: 292px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 250px;
+}
+.award-text{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 420px;;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-weight: 600;
+    padding-left: 30px;
+
+}
+.award-cover2{
+    margin-left: 80px;;
+}
+.covid{
+    height: 42px;
+    margin-top: 30px;
+    font-size: 15px;
+    padding-left: 33vw;
+}
+.covid1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 450px;
+}
+.covid2{
+    padding-top: 6px;
+    font-family: sans-serif;
+}
+.donate{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn1{
+    font-size: 14px;
+    color: aliceblue;
+    background-color: black;
+    border-color: rgb(37, 161, 240);
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: 3px solid;
+    padding: 20px 30px;
+    margin-top: 30px;
+  }
+  .donate-text{
+    font-size: 16px;
+    margin-left: 3px;
+  }
+  .donate-text1{
+    font-size: 16px;
+    margin-left: 20px;
+
+  }
+  .donate-innerDiv2{
+    margin-left: 20px;
+  }
+  .oxygen-cover1{
+    width: 294.8px;
+    height: 174.66px;
+  }
+  .oxygen-cover1-heading{
+    font-size: 22px;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 294.8px;
+  }
+  .oxygen-cover1-body{
+    font-size: 14px;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 294.8px;
+  }
+  .oxygen{
+    display: flex;
+    justify-content: center;
+    margin: 40px 100px 120px 100px;
+  }
+  .oxygen-2div{
+    margin-left: 30px;
+  }
+  .photo{
+    background-image: url("2site/bg7.jpg");
+    width: 100hv;
+    height: 478.55px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+  
+  }
+  .photo-sentence{
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding-top: 430px;
+    color: white;
+  }
+  .financial{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  .hoperight{
+    width: 611.25px;
+    padding-left: 40px;
+  }
+  .hope-photo{
+    width: 406.56px;
+    height: 392px;
+  }
+  .hope-text{
+    font-size: 19px;
+    width: 575px;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 50;
+    padding-top: 30px;
+    color: #191919;
+  }
+  .btn2{
+    font-size: 18px;
+    color: #ffffff;
+    border-color: rgb(37, 161, 240);
+    background-color: rgb(14,131,205);
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: 3px solid;
+    padding: 30px 40px;
+    margin-top: 50px;
+    font-weight: 300;
+  }
+  .footer{
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+  }
+  .footer-heading{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .footer-body{
+  font-weight: 100;
+  font-size: 13px;
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-right: 30px;
+  }
+  .a1{
+    margin-top: 15px;
+  }
+  .a2{
+    margin-top: 10px;
+  }
+  .a3{
+    margin-top: 30px;
+  }
+  .footer1{
+    background-color: rgb(14,131,205);
+    height: 100vh;
+    width: 100%;
+    color: #ffffff;
+  }
+  .a7{
+    display: flex;
+    width: 80vw;
+  }
+  .a5{
+    margin-top: 80px;
+    margin-left: 400px;
+  }
+  .a6{
+    margin-top: 0px;
+    margin-left: 280px;
+  }
+  
